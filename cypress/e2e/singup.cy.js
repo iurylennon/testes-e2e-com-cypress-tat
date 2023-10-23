@@ -1,6 +1,9 @@
 /* eslint-disable no-undef */
 /// <reference types="cypress" />
 
+/// <reference path="../support/commands.d.ts" />
+
+
 import { faker } from '@faker-js/faker/locale/en'
 
 describe('Sign up', () => {
