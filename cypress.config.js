@@ -11,8 +11,6 @@ module.exports = defineConfig({
     defaultCommandTimeout: 15000,
     requestTimeout: 30000,
     video: true,
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
+    projectId: 'o2bhwo',
   },
 })
