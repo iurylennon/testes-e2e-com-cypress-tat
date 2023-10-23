@@ -1,0 +1,14 @@
+{
+    "extends": [
+      "plugin:cypress/recommended",
+      "globals": {
+        "cy": true
+      }
+    ],
+    "rules": {
+      "cypress/no-force": "error",
+      "cypress/assertion-before-screenshot": "error",
+      "cypress/no-pause": "error"
+    }
+  }
+  
