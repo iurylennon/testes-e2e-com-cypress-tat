@@ -5,6 +5,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
   // failing the test
   return false
 })
+import registerCypressGrep from '@cypress/grep/src/support'
+registerCypressGrep()
 
 import './commands'
 
